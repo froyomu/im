@@ -8,6 +8,32 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
+      <groupId>com.startalk.im</groupId>
+      <artifactId>pay</artifactId>
+      <version>15.6.5</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.startalk.im</groupId>
+      <artifactId>sqlite</artifactId>
+      <version>3.3.0</version>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
       <groupId>com.android.support</groupId>
       <artifactId>appcompat-v7</artifactId>
       <version>27.1.0</version>
