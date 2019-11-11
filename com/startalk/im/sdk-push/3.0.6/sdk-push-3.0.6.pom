@@ -32,10 +32,20 @@
       <scope>compile</scope>
       <exclusions>
         <exclusion>
+          <artifactId>firebase-iid</artifactId>
+          <groupId>com.google.firebase</groupId>
+        </exclusion>
+        <exclusion>
           <artifactId>support-v4</artifactId>
           <groupId>com.android.support</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-iid</artifactId>
+      <version>18.0.0</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>
